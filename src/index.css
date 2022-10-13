@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.header{
+  height: 50px;
+  min-width: 100vw !important;
+  position: fixed;
+  background-color: #012433;
+  top: 0;
+  right: 0;
+}
+.navigation{
+  height: 150px;
+  position: fixed;
+  background-color: white;
+  top: 50px;
+  padding-top: 25px;
+  z-index: 2;
+}
+
+.navigation h1{
+  font-family: 'Roboto';
+  color: #386071;
+}
+
+.navigation .btn{
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+}
+
+.navigation .dropdown-menu {
+  height: 30vh;
+  overflow-y: scroll;
+}
+
+.tableFixHead {
+  margin-top: 200px;
+}
+
+.tableFixHead thead th { 
+  position: sticky;
+  top: 200px;
+  z-index: 1; 
+  background-color: white; 
+  color: #0B749B; 
+  box-shadow: inset 0 -2px 0 #0B749B; 
+  font-size: 11px; 
+  font-family: 'Roboto'; 
+  font-weight: bold;}
+
+.tableFixHead td:first-child, th:first-child{
+  text-align: center;
+  font-family: 'Roboto';
+}
+.tableFixHead td:last-child, th:last-child{
+  width: 10%;
+}
+
+.modal-40w {
+  min-width: 40%;
+}
+
+.modal-header{
+  border-bottom: none !important;
+}
+
+.modal-title {
+  border-bottom:2px solid #21B3CF;
+  font-size: 30px !important;
+  font-weight: normal !important;
+  color: #164E78;
+}
+.modal-title {
+  width:10%;
+}
+
+.modalGroup{
+  margin-bottom: 10px;
+}
+
+.modalLabel{
+  font-size: 14px;
+  color: #78849EB9;
+  font-family: 'Roboto'; 
+}
+
+.modalText{
+  font-size: 16px;
+  color: #78849E;
+  font-family: 'Roboto'; 
+  font-weight: bold;
+}
+
+.director .modalText{
+  color: #00BAFF;
+  width: 30%;
+}
+
+.actors .modalText{
+  color: #00BAFF;
+  width: 70%;
+}
+
+.director{
+  float: left;
+  white-space: nowrap;
+  margin-right: 48px;
+}
+
+.customClose{
+  margin: auto 0;
+  float: right;
+}
+
+.customButton{
+  margin-right: 10px;
+}
+
+.customDropdown{
+  float: right;
+}
+
+.saveButton{
+  margin: 25px 10px 0px 0px;
+  float: right;
+}
